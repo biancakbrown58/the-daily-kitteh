@@ -10,3 +10,63 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.header h1 {
+  background-color: rgb(226, 244, 245);
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(74, 95, 114);
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(17, 199, 218);
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  align-items: center;
+}
+.nav-bar li {
+  list-style: none;
+  text-decoration: underline;
+  color: white;
+}
+/* .nav-bar:nth-child(1) {
+  margin-left: 8rem;
+  list-style: none;
+}
+.nav-bar:nth-child(4) {
+  margin-right: 8rem;
+  list-style: none;
+} */
+aside {
+  background-color: rgb(226, 244, 245);
+  display: flex;
+  padding: 2rem;
+  /* flex-direction: column; */
+}
+.article {
+  padding-left: 2rem;
+}
+.highlight {
+  border: 1px solid rgb(17, 199, 218);
+  padding: 0.3rem;
+}
+.highlight h2 {
+  color: rgb(74, 95, 114);
+  font-size: 1.2rem;
+}
+.article h2 {
+  color: rgb(74, 95, 114);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+  list-style: none;
+  background-color: rgb(206, 204, 204);
+  padding: 1rem 4rem;
+}
